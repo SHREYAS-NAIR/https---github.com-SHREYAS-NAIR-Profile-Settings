@@ -1,0 +1,16 @@
+.Heading{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    gap:10px;
+
+    padding: 10px;
+}
+
+.Heading img{
+    /*Dimensions*/
+    height: 40px;
+    width: 30px;
+    border-radius: 0px;
+}

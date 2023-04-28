@@ -1,0 +1,221 @@
+.MainScreen{
+    color: antiquewhite;
+}
+
+
+
+.Sub-TitleBar{
+    display: flex;
+    width: 100%;
+    padding: 0.5%;
+    background: #090B0D;
+}
+
+.BackButton{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:10%;
+    width: 100px;
+}
+.BackButton img{
+    height:15px;
+    width: auto;
+}
+.BackButtonText:hover{
+    text-decoration:underline;
+    letter-spacing: 1px;
+}
+.BackButton label{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.SettingsTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:0.5%;
+    width: 100%;
+}
+.SettingsTitle img{
+    height: 20px;
+    width: auto;
+}
+.SettingsTitle label{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 1px;
+
+    color: #FFFFFF;
+}
+
+
+.SettingsPage{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Menu{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    width: 70px;
+    height: 645px;
+    background: #090B0D;
+}
+.Menu img{
+    height: 30px;
+    width: auto;
+}
+.Tabs{
+    width: 70px;
+    padding: 15px;
+    display: flex;
+    justify-content: center ;
+}
+.Tabs:hover{
+    background: #17131B;
+}
+
+.Sub-Menu{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    background-color: #090B0D;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+}
+
+.Sub-Menu-Items{
+    padding: 15px;
+    padding-left: 25px;
+}
+.Sub-Menu-Items:hover{
+    background: #17131B;
+}
+
+.ProfileSettingsPage{
+    background: #000000;
+    width: calc(100% - 270px);
+    margin: 0 auto;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.Profile-Info{
+    background-color: #17131B4D;
+    padding: 25px;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-radius: 11px;
+}
+.Title{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 38px;
+
+    color: #FFFFFF;
+}
+
+.Profile-Info input{
+    background: #232025;
+    font-family: Nunito;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+    border-radius: 10px;
+    border-style: hidden;
+    padding: 5px 5px 2px 10px;
+}
+
+.Profile-Info-Fields{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content:space-evenly;
+}
+
+.Name{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    flex-basis:33.333333%;
+    width: 100%;
+}
+.Name label{
+    padding: 5px;
+}
+.FirstName{
+    padding: 15px 15px 5px 0px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+.MiddleName{
+    padding: 15px 15px 5px 0px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+.LastName{
+    padding: 15px 15px 5px 0px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+.Email{
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+.Email input{
+    width: 66.666666%;
+}
+.Organization{
+    padding: 0px 15px 5px 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:16px;
+    width: 100%;
+}
+
+.Clickables{
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+.Clickables a{
+    color: #EE691E;
+    letter-spacing: 1px;
+}
+.ChangePassword:hover{
+    letter-spacing: 2px;
+}

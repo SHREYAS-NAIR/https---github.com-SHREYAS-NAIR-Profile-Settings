@@ -1,0 +1,23 @@
+.Button{
+    padding: 30px 0px 0px 0px;
+    width: 100%;
+}
+.Button button{
+    height: 45px;
+    width: 20%;
+
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+    border-radius: 10px;
+
+    background: linear-gradient(49.98deg, #680FD2 -1.45%, #EF1B2E 58.39%, #EF1B2F 62.12%, #F48C0D 82.98%, #F5B102 96.79%),
+    linear-gradient(0deg, #0E0C0F, #0E0C0F);
+}
+.Button:hover{
+    padding: 30px 0px 0px 0px;
+    width: 103%;
+}

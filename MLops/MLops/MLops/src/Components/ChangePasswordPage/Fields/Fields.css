@@ -1,0 +1,57 @@
+.Fields{
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    font-family: Nunito;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+.Fields input{
+    padding-top: 0px;
+    background: #232025;
+    font-family: Nunito;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+}
+.TopField input,label{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border-style: hidden;
+}
+.TopField p{
+    margin-top: 5px;
+    margin-bottom: 0px;
+    text-decoration: none;
+}
+
+.BottomFields{
+    display:flex;
+    justify-content:center;
+    margin-top: 10px;
+    gap:10px
+}
+
+.BottomFields input,label{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border-style: hidden;
+}
+
+.BottomFields p{
+    margin-top: 5px;
+    margin-bottom: 0px;
+    text-decoration: none;
+}
+.SpecificBottomField{
+    width: 100%;
+}
